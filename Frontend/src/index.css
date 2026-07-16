@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #0f172a;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glass {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+.gradient-text{
+  background:linear-gradient(90deg,#60a5fa,#8b5cf6);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.generate-btn{
+  background:linear-gradient(135deg,#3b82f6,#7c3aed);
+}
+
+.generate-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 15px 30px rgba(99,102,241,.35);
+  transition:.3s;
+}
+.perspective {
+  perspective: 1500px;
+}
+
+.glass {
+  background: rgba(255,255,255,.05);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 10px 40px rgba(0,0,0,.4);
+}
