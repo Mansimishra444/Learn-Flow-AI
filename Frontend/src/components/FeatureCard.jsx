@@ -1,4 +1,4 @@
-import { featureData } from "../components/featureData";
+import { featureData } from "../components/FeatureData";
 
 const FeatureCard = () => {
   return (
